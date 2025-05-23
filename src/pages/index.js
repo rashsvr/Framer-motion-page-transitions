@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <>
    
-      <Stairs backgroundColor={"#B0AD98"}>
+      <Curve backgroundColor={"#B0AD98"}>
         <h1>Home</h1>
         <div className='body'>
-            <p>Lorem ipsum dolor sit amet, consectetur . Aenean mauris ligula, laoreet ut volutpat sit amet, convallis et turpis.</p>
+            u can change pages transition wrap imports (Stairs,Inner,Curve) to see other Transitions .Curve transition is the default one
         </div>
-      </Stairs>
+      </Curve>
     </>
   )
 }

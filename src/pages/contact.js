@@ -6,12 +6,12 @@ import Head from 'next/head'
 export default function Contact() {
   return (
     <>
-      <Stairs backgroundColor="#6E97D0">
+      <Curve backgroundColor="#6E97D0">
         <h1>Contact</h1>
         <div className='body'>
-          <p>Lorem ipsum dolor sit amet, consectetur . Aenean mauris ligula, laoreet ut volutpat sit amet, convallis et turpis.</p>
+          <p>u can change pages transition wrap imports (Stairs,Inner,Curve) to see other Transitions .Curve transition is the default one</p>
             </div>
-      </Stairs>
+      </Curve>
     </>
   )
 }
